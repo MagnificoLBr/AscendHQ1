@@ -1,10 +1,11 @@
 {
 	"name": "web",
-	"private": false,
+	"private": true,
 	"type": "module",
 	"scripts": {
 		"dev": "react-router dev",
-		"typecheck": "react-router typegen && tsc --noEmit"
+		"typecheck": "react-router typegen && tsc --noEmit",
+		"build": "react-router build"
 	},
 	"dependencies": {
 		"@auth/core": "^0.37.2",
