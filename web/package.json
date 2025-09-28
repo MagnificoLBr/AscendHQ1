@@ -1,6 +1,6 @@
 {
 	"name": "web",
-	"private": true,
+	"private": false,
 	"type": "module",
 	"scripts": {
 		"dev": "react-router dev",
